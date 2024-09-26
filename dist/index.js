@@ -1,10 +1,10 @@
-// @ts-check
-/** @typedef { import ("../@types/person").Person} Person */
-/** @param {Person} person */
-
 "use strict";
 console.log("Hello World");
-
-function printPerson(person) {
-    console.log(person.name);
+function printName(obj) {
+    console.log(obj.name);
 }
+const sonata = {
+    name: 'sonata',
+    price: 1234,
+};
+printName(sonata);
